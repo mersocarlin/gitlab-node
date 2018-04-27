@@ -1,13 +1,18 @@
 # mersocarlin/gitlab-node
 
-Docker image that builds NodeJS apps in GitLab and deploys to Heroku.
+Builds NodeJS apps in GitLab and deploys to Heroku.
 
-## Features
+## ⭐ Features
 
-- [alpine/node](https://github.com/mhart/alpine-node): Minimal Node.js Docker Imagesbuilt on Alpine Linux
-- [Dpl](https://github.com/travis-ci/dpl): deploy tool made for continuous deployment
+✅ [alpine/node](https://github.com/mhart/alpine-node): Minimal Node.js Docker Images built on Alpine Linux
 
-## How to
+✅ [Dpl](https://github.com/travis-ci/dpl): deploy tool made for continuous deployment
+
+✅ [node-gyp](https://github.com/nodejs/node-gyp): Node.js native addon build tool
+
+✅ [bcrypt](https://github.com/kelektiv/node.bcrypt.js) build support
+
+## 📖 How to
 
 In `.gitlab-ci.yml` file: 
 
