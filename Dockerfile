@@ -1,7 +1,7 @@
-FROM node:10-alpine
+FROM node:10.18.0-alpine3.11
 
 LABEL maintainer "mersocarlin@gmail.com"
-LABEL Version "1.0.4"
+LABEL Version "10.18.0"
 
 RUN apk update && apk upgrade \
 	&& apk add --no-cache curl git ruby ruby-json && echo 'gem: --no-document' > /etc/gemr \
